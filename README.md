@@ -1,6 +1,6 @@
 # 3D-Object-Reconstruction-SfM
 
-# 3D Object Reconstruction Pipeline
+## Introduction
 
 This repository contains a **Structure‑from‑Motion (SfM)** and **surface‑reconstruction** pipeline that converts a set of 2‑D photographs into a colored 3‑D mesh.  
 The reconstructed model can be exported as **PLY** or imported into simulators such as **Blender**, **MeshLab**, or **Gazebo** for robotic manipulation.
