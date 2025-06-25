@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This repository contains a **Structure‑from‑Motion (SfM)** and **surface‑reconstruction** pipeline that converts a set of 2‑D photographs into a colored 3‑D mesh.  
+This repository contains a **Structure‑from‑Motion (SfM)** and **surface‑reconstruction** pipeline that converts a set of 2‑D photographs captured using an iPhone 11 camera into a 3‑D mesh. This work can provide a sparse reconstruction which can be further developed to get a dense reconstruction using C++ libraries.
 The reconstructed model can be exported as **PLY** or imported into simulators such as **Blender**, **MeshLab**, or **Gazebo** for robotic manipulation.
 
 ---
@@ -21,6 +21,8 @@ The reconstructed model can be exported as **PLY** or imported into simulators s
 | Interactive Demo | Jupyter notebook | `python_script_reconstruction.ipynb` |
 
 ---
+Figure: Feature Matching between two images
+![image](https://github.com/user-attachments/assets/17b0a0ee-5982-4b00-ba10-050b19d48f89)
 
 ## Quick Start
 
@@ -92,6 +94,10 @@ python test.py                                        # terminal
 | Poisson meshing slow | Lower `depth` parameter (e.g. 10 → 8) |
 
 ---
+## Results
+![image](https://github.com/user-attachments/assets/e59b65bf-4758-49f7-8269-af7a8c70f48d)
+
+![image](https://github.com/user-attachments/assets/436f72aa-48f3-4cb4-8353-2cc032952743)
 
 
 
