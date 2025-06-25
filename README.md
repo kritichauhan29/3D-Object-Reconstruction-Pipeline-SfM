@@ -8,6 +8,9 @@ The reconstructed model can be exported as **PLY** or imported into simulators s
 ---
 
 ## Stages of Structure from Motion
+
+![image](https://github.com/user-attachments/assets/6a98b2e6-6f3f-4ff1-952f-e3f84ec7612d)
+
 | Stage | Technique | Implementation |
 |-------|-----------|----------------|
 | Camera Calibration | Chessboard (9 × 6) corner detection | `test.py` §1 |
